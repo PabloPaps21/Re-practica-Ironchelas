@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+#revisar https://github.com/dlamo/lab-react-ironbeers/blob/master/src/components/AllBeers.jsx

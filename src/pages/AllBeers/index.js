@@ -40,7 +40,6 @@ export default class AllBeers extends Component {
           Listado de todas las cervezas
         </h1>
         <input className="form-control m-4" name='search' value={this.state.search} onChange={this.handleSearch} placeholder='Search...' />
-                {this.getAllBeersCards()}
         {beers.map((beer,i) => (
           <CardComponent
           key={i}
